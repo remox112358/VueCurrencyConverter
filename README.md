@@ -5,9 +5,9 @@
 ## Advantages
 
 - Reactivity
+- Recent data
 
     > API URL: https://www.cbr-xml-daily.ru/daily_json.js
-- Recent data
 - 30+ currencies
 - Simple and intuitive interface
 
