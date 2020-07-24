@@ -12,7 +12,7 @@
                 </v-col>
 
                 <v-col class="px-1" cols="9">
-                  <v-text-field @input="convert" v-model="inputed" type="number"></v-text-field>
+                  <v-text-field @input="convert" v-model="inputed" :rules="[rules.onlyNumbers]"></v-text-field>
                 </v-col>
               </v-row>
             </v-col>
@@ -51,9 +51,18 @@ export default {
     return {
       valutes: {},
       selected: ['RUB', 'USD'],
-      inputed: null,
+      inputed: "",
       result: null,
-      countries: ['RUB']
+      countries: ['RUB'],
+      rules: {
+        onlyNumbers: (value) => {
+          const pattern = /^\d+$/.test(value);
+
+          if (!pattern) this.inputed = this.inputed.replace(/\D/g, '');
+
+          return true;
+        }
+      }
     }
   },
 
