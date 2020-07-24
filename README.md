@@ -1,5 +1,3 @@
-# VueCurrencyConverter
-
 # VUE + VUETIFY + AXIOS
 
 ![screenshot_1](screenshots/screenshot.png)
