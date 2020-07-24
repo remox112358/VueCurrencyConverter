@@ -1,5 +1,9 @@
 # currency-converter
 
+# VUE + VUETIFY + AXIOS + SCSS
+
+![screenshot_1](screenshots/screenshot.png)
+
 ## Project setup
 ```
 npm install
