@@ -1,8 +1,15 @@
-# currency-converter
+# VueCurrencyConverter
 
-# VUE + VUETIFY + AXIOS + SCSS
+# VUE + VUETIFY + AXIOS
 
 ![screenshot_1](screenshots/screenshot.png)
+
+## Advantages
+
+- Reactivity
+- Recent data
+- 30+ currencies
+- Simple and intuitive interface
 
 ## Project setup
 ```
